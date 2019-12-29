@@ -1,0 +1,38 @@
+.home {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+
+    &-content {
+        text-align: center;
+        margin-top: 30vh;
+        height: 70vh;
+    }
+    &-background {
+        height: 100vh;
+        background-color: white;
+        background: url("../../images/mountain.jpg");
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        width: 100%;
+        z-index: -10;
+        opacity: 0.8;
+    }
+    &__intro {
+        font-size: 1.2rem;
+        font-family: cursive;
+        color: black;
+        margin-top: 20px;
+    }
+    &__title {
+        font-size: 3rem;
+        font-family: 'Times New Roman', Times, serif;
+        //font-family: 'Titillium Web',sans-serif
+        letter-spacing: 0;
+        color: black;
+    }
+}
+

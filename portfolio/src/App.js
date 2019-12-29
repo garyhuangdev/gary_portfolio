@@ -1,13 +1,19 @@
 import React from 'react';
-import "./styles/css/bootstrap.css";
-
-import { Button } from 'react-bootstrap';
+import Navbar from './components/layout/Navbar';
+import Home from './components/pages/Home';
+import "./styles/css/style.css";
+import './styles/css/bootstrap.css';
+import Skills from './components/pages/Skills';
 
 function App() {
   return (
-    <div className="App">
-      <Button>Link</Button>
-    </div>
+    <React.Fragment>
+      <Home />      
+      <Navbar />
+      <Skills />
+      <Skills />
+      <Skills />
+    </React.Fragment>
   );
 }
 

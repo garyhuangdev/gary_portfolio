@@ -1,0 +1,65 @@
+.navbar {
+  position: sticky;
+  font-weight: 600;
+  font-size: 1.2rem;
+  top: 0;
+  padding: 0 auto;
+  background: black;
+  opacity: 0.9;
+  margin: 0;
+}
+@media only screen and (max-width: 400px) {
+  .navbar {
+    font-size: 0.6rem;
+  }
+}
+
+.home {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+.home-content {
+  text-align: center;
+  margin-top: 30vh;
+  height: 70vh;
+}
+.home-background {
+  height: 100vh;
+  background-color: white;
+  background: url("../../images/mountain.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  z-index: -10;
+  opacity: 0.8;
+}
+.home__intro {
+  font-size: 1.2rem;
+  font-family: cursive;
+  color: black;
+  margin-top: 20px;
+}
+.home__title {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0;
+  color: black;
+}
+
+.skills {
+  color: red;
+}
+.skills h2 {
+  color: blue;
+  padding-top: 60px;
+}
+.skills h3 {
+  color: #11aba2;
+  margin-top: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
