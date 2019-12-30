@@ -1,9 +1,15 @@
 //######## Skills Section #######
 .skills {
+    font-family: Titillium Web,sans-serif;
+    padding: 0 40px;
     h3 {
-      color: $black;
+      color: $deep-content;
       margin-top: 30px;
+      font-weight: 700;
     }
-    color: red;
+    p {
+      color: $content; 
+      font-weight: 600;
+    }
   }
   

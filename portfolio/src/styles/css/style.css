@@ -137,7 +137,7 @@ body {
   font-family: cursive;
   color: #596275;
   margin-top: 20px;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 }
 @media only screen and (max-width: 576px) {
   .home__intro {
@@ -158,11 +158,17 @@ body {
 }
 
 .skills {
-  color: red;
+  font-family: Titillium Web, sans-serif;
+  padding: 0 40px;
 }
 .skills h3 {
-  color: #020202;
+  color: #1a4272;
   margin-top: 30px;
+  font-weight: 700;
+}
+.skills p {
+  color: #596275;
+  font-weight: 600;
 }
 
 .section-head h2 {
@@ -192,7 +198,7 @@ body {
 .projects .project {
   border-top: solid 2px #1a4272;
   margin: 40px 0 100px 0;
-  padding-top: 40px;
+  padding: 40px 30px 0 30px;
 }
 .projects .project h3 {
   margin: 20px 0;
