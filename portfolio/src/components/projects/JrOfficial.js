@@ -29,7 +29,7 @@ const JrOfficial = () => (
               className="btn btn-project"
               disabled
             >
-Source Private
+                Source Private
             </button>
           </div>
         </div>

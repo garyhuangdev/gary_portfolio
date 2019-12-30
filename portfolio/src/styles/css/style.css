@@ -21,6 +21,7 @@ body {
   font-size: 1.3rem;
   background: black;
   margin: 0;
+  font-family: Titillium Web, sans-serif;
 }
 .nav .navbar .navbar-nav .nav-link {
   padding: 3px 20px;
@@ -231,6 +232,62 @@ body {
 }
 .projects .project img:hover {
   transform: scale(1.1);
+}
+
+.contact {
+  font-family: Titillium Web, sans-serif;
+  font-weight: 600;
+  margin-bottom: 50px;
+  padding: 10px 20px;
+}
+@media only screen and (max-width: 480px) {
+  .contact {
+    padding: 10px 0;
+  }
+}
+.contact .row {
+  margin-top: 50px;
+}
+.contact .contact-info a {
+  color: #596275;
+}
+.contact .contact-info a:hover {
+  color: #1a4272;
+}
+.contact .contact-info img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  display: inline-block;
+}
+@media only screen and (max-width: 480px) {
+  .contact .contact-info img {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+  }
+}
+.contact .contact-info p {
+  font-size: 1.1rem;
+  color: #1a4272;
+}
+@media only screen and (max-width: 770px) {
+  .contact .contact-info p {
+    font-size: 0.8rem;
+  }
+}
+.contact .contact-words {
+  font-weight: 100;
+  margin-top: 210px;
+  text-align: center;
+  color: #596275;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 480px) {
+  .contact .contact-words {
+    font-size: 0.6rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

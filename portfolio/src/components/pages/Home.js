@@ -11,7 +11,7 @@ const Home = () => (
       </h3>
       <div className="home__icon">
         <a
-          href="https://www.linkedin.com/in/gary-huang-superpower"
+          href="https://www.linkedin.com/in/garyhuang-dev/"
           target="_blank"
           rel="noopener noreferrer"
         >
