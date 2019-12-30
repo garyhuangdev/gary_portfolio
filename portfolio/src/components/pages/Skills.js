@@ -4,6 +4,7 @@ const Skills = () => {
   return (
     <section className='skills'>
       <div className='section-head'>
+        <h6 className='text-center'>View My Skills</h6>
         <h2 className='text-center'>Skills</h2>
         <div className='underline'></div>
       </div>

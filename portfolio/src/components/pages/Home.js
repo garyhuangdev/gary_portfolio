@@ -12,16 +12,16 @@ const Home = () => {
           <h3 className='home__intro'>
             Full-stack Developer | Front-end Developer
           </h3>
-          <div className='home__intro'>
+          <div className='home__icon'>
             <a
-              href='https://www.linkedin.com/in/yiping-niu/'
+              href='https://www.linkedin.com/in/gary-huang-superpower'
               target='_blank'
               rel='noopener noreferrer'
             >
               <span>Linkedin</span>
             </a>
             <a
-              href='https://github.com/Nndouu'
+              href='https://github.com/garyhuangdev'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -32,6 +32,13 @@ const Home = () => {
             </a>
             <a target='_blank' rel='noopener noreferrer' href="/">
               <span>Resume</span>
+            </a>
+            <a
+              href='https://medium.com/@garyncookie'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <span>Blog</span>
             </a>
           </div>
         </div>

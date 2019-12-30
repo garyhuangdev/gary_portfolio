@@ -1,27 +1,27 @@
 $black: #020202;
+$title: #2f3542;
+$content: #596275;
 $light: #f8f9fa;
-$primary-green-light: #0fd35c;
-$primary-green: #11aba2;
 
-.navbar {
+.nav {
     position: sticky;
-    font-weight: 600;
-    font-size: 1.2rem;
     top: 0;
-    padding: 0 auto;
-    background: black;
-    opacity: 0.9;
-    margin: 0;
-    @media only screen and (max-width: 400px) {
-      font-size: 0.6rem;
-    }
-//   .nav-item {
-//       &:active {
-//           color: blue;
-//       }
-//   }
 }
- 
+
+.nav .navbar {
+    width: 100vw;
+    font-weight: 600;
+    font-size: 1.6rem;
+    background: black;
+    margin: 0;
+    .navbar-nav .nav-link {
+        padding: 5px 20px;
+        @media only screen and (max-width: 576px) {
+            font-size: 0.7rem;
+            padding: 5px 0;
+        }
+    }
+}
 
 @import "_home.scss";
 @import "_skills.scss";

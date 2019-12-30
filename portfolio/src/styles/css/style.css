@@ -1,16 +1,23 @@
-.navbar {
+@charset "UTF-8";
+.nav {
   position: sticky;
-  font-weight: 600;
-  font-size: 1.2rem;
   top: 0;
-  padding: 0 auto;
+}
+
+.nav .navbar {
+  width: 100vw;
+  font-weight: 600;
+  font-size: 1.6rem;
   background: black;
-  opacity: 0.9;
   margin: 0;
 }
-@media only screen and (max-width: 400px) {
-  .navbar {
-    font-size: 0.6rem;
+.nav .navbar .navbar-nav .nav-link {
+  padding: 5px 20px;
+}
+@media only screen and (max-width: 576px) {
+  .nav .navbar .navbar-nav .nav-link {
+    font-size: 0.7rem;
+    padding: 5px 0;
   }
 }
 
@@ -21,8 +28,88 @@
 }
 .home-content {
   text-align: center;
-  margin-top: 30vh;
-  height: 70vh;
+  margin-top: 20vh;
+  height: 80vh;
+}
+.home-content a {
+  color: #596275;
+  font-size: 35px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-family: fontawesome;
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 50px 25px 0 25px;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-font-smoothing: antialiased;
+}
+@media only screen and (max-width: 480px) {
+  .home-content a {
+    width: 30px;
+    height: 30px;
+    margin: 50px 10px 0 10px;
+    font-size: 25px;
+  }
+}
+.home-content a:hover {
+  color: #2f3542;
+}
+.home-content a span {
+  color: #2f3542;
+  position: absolute;
+  font-family: sans-serif;
+  bottom: 0;
+  left: -25px;
+  right: -25px;
+  padding: 5px 5px;
+  z-index: -1;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 4px;
+  background: #f0feffb4;
+  visibility: hidden;
+  opacity: 0;
+  -o-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.home-content a span:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  position: absolute;
+  bottom: -5px;
+  left: 40px;
+}
+.home-content a:hover span {
+  bottom: 50px;
+  visibility: visible;
+  opacity: 1;
+}
+.home-content a:nth-of-type(1):before {
+  content: "";
+}
+.home-content a:nth-of-type(2):before {
+  content: "";
+}
+.home-content a:nth-of-type(3):before {
+  content: "";
+}
+.home-content a:nth-of-type(4):before {
+  content: "";
+}
+.home-content a:nth-of-type(5):before {
+  content: "";
 }
 .home-background {
   height: 100vh;
@@ -38,16 +125,27 @@
   opacity: 0.8;
 }
 .home__intro {
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-family: cursive;
-  color: black;
+  color: #596275;
   margin-top: 20px;
 }
+@media only screen and (max-width: 576px) {
+  .home__intro {
+    font-size: 1.1rem;
+  }
+}
 .home__title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 0;
-  color: black;
+  color: #2f3542;
+  font-weight: 400;
+}
+@media only screen and (max-width: 576px) {
+  .home__title {
+    font-size: 2.5rem;
+  }
 }
 
 .skills {
@@ -58,7 +156,7 @@
   padding-top: 60px;
 }
 .skills h3 {
-  color: #11aba2;
+  color: #596275;
   margin-top: 30px;
 }
 
