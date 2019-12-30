@@ -3,6 +3,7 @@ import Navbar from './components/layout/Navbar';
 import Home from './components/pages/Home';
 import "./styles/css/style.css";
 import './styles/css/bootstrap.css';
+import Projects from "./components/pages/Projects";
 import Skills from './components/pages/Skills';
 
 function App() {
@@ -10,9 +11,10 @@ function App() {
     <React.Fragment>
       <Home />      
       <Navbar />
-      <Skills />
-      <Skills />
-      <Skills />
+      <div className='container'>
+        <Projects />
+        <Skills />
+      </div>
     </React.Fragment>
   );
 }

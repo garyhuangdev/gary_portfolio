@@ -1,7 +1,7 @@
 import React from "react";
-import Portfolio from "../projects/Portfolio";
 import JrOfficial from "../projects/JrOfficial";
 import JrDashboard from "../projects/JrDashboard";
+import Portfolio from "../projects/Portfolio";
 
 const Projects = () => {
   return (

@@ -2,26 +2,41 @@ $black: #020202;
 $title: #2f3542;
 $content: #596275;
 $light: #f8f9fa;
+$deep-content: #1a4272;
+
+body {
+    // background: #ADA996;  /* fallback for old browsers */
+    // background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ece9e6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ece9e6, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ece9e6, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
 
 .nav {
     position: sticky;
     top: 0;
+    opacity: 0.9;
+    z-index: 100;
 }
 
 .nav .navbar {
     width: 100vw;
     font-weight: 600;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     background: black;
     margin: 0;
     .navbar-nav .nav-link {
-        padding: 5px 20px;
+        padding: 3px 20px;
         @media only screen and (max-width: 576px) {
             font-size: 0.7rem;
-            padding: 5px 0;
+            padding: 3px 0;
         }
     }
 }
 
-@import "_home.scss";
-@import "_skills.scss";
+@import "_home";
+@import "_skills";
+@import "sction-head";
+@import "_projects";

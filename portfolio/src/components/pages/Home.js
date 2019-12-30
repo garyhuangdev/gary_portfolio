@@ -1,6 +1,4 @@
 import React from 'react';
-import { Button, Modal } from "react-bootstrap";
-
 
 const Home = () => {
     return (
@@ -26,9 +24,6 @@ const Home = () => {
               rel='noopener noreferrer'
             >
               <span>Github</span>
-            </a>
-            <a href='#!'>
-              <span>Email</span>
             </a>
             <a target='_blank' rel='noopener noreferrer' href="/">
               <span>Resume</span>
