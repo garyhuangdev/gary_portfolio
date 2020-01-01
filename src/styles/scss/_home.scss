@@ -99,13 +99,12 @@
         opacity: 0.8;
     }
     &__intro {
-        font-size: 2rem;
-        font-family: cursive;
+        font-size: 1.6rem;
+        font-family: Times New Roman;
         color: $content;
         margin-top: 20px;
-        letter-spacing: -1px;
         @media only screen and (max-width: 576px) {
-            font-size: 1.1rem;
+            font-size: 0.8rem;
           }
     }
     &__title {

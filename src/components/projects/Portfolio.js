@@ -9,7 +9,7 @@ const Portfolio = () => (
         <img src={portfolioImg} alt="portfolioImg" />
         <div className="row mt-2 mb-5 text-center">
           <div className="col-md-6">
-            <a
+            <button
               href="https://localhost:3000/"
               target="_blank"
               type="button"
@@ -17,10 +17,10 @@ const Portfolio = () => (
               className="btn btn-project"
             >
                 View Project
-            </a>
+            </button>
           </div>
           <div className="col-md-6">
-            <a
+            <button
               href="https://github.com/garyhuangdev/gary_portfolio"
               target="_blank"
               type="button"
@@ -28,7 +28,7 @@ const Portfolio = () => (
               className="btn btn-project"
             >
                 View Code
-            </a>
+            </button>
           </div>
         </div>
       </div>
