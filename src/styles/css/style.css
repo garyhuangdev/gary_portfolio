@@ -48,6 +48,7 @@ body {
   border-radius: 4px;
   text-align: center;
   text-decoration: none;
+  font-weight: normal;
   position: relative;
   display: inline-block;
   width: 40px;

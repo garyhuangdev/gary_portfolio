@@ -27,7 +27,7 @@ const Home = () => (
           <span>Github</span>
         </a>
         <a target="_blank" rel="noopener noreferrer" href="/">
-          <i class="fas fa-user-circle"></i>
+          <i class="far fa-user-circle"></i>
           <span>Resume</span>
         </a>
         <a
