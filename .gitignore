@@ -1,5 +1,6 @@
-node_modules
-build
+node_modules/
+build/
+.gitignore
 .DS_Store
 .env.local
 .env.development.local
