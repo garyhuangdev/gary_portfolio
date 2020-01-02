@@ -15,7 +15,7 @@ const Home = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fab fa-linkedin-in"></i>
+          {/* <i class="fab fa-linkedin-in"></i> */}
           <span>Linkedin</span>
         </a>
         <a
@@ -23,11 +23,11 @@ const Home = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fab fa-github"></i>
+          {/* <i class="fab fa-github"></i> */}
           <span>Github</span>
         </a>
         <a target="_blank" rel="noopener noreferrer" href="/">
-          <i class="far fa-user-circle"></i>
+          {/* <i class="far fa-user-circle"></i> */}
           <span>Resume</span>
         </a>
         <a
@@ -35,7 +35,7 @@ const Home = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fas fa-paperclip"></i>
+          {/* <i class="fas fa-paperclip"></i> */}
           <span>Blog</span>
         </a>
       </div>
