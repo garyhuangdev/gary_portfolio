@@ -17,7 +17,7 @@ const JrOfficial = () => (
               rel="noopener noreferrer"
               className="btn btn-project"
             >
-                View Project
+              View Project
             </button>
           </div>
           <div className="col-md-6">
@@ -26,27 +26,25 @@ const JrOfficial = () => (
               type="button"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-project"
+              className="btn btn-disabled"
               disabled
             >
-                Source Private
+              Private
             </button>
           </div>
         </div>
       </div>
       <div className="col-md-6 project-description">
-        <h4>
-            The official website of JR Academy.
-        </h4>
+        <h4>The official website of JR Academy.</h4>
         <div className="project-info">
           <p>• Project Management: Jira, bitbucket</p>
           <p>
             • Front-end development: CSS3, Sass, Pug(Jade), JavaScript ES6,
-              React.js, Redux, Bootstrap, jQuery, Responsive design
+            React.js, Redux, Bootstrap, jQuery, Responsive design
           </p>
           <p>
             • Back-end development: Node.js, MongoDB, KeystoneJs, Mongoose,
-              RESTful API
+            RESTful API
           </p>
         </div>
       </div>

@@ -17,7 +17,7 @@ const JrDashboard = () => (
               rel="noopener noreferrer"
               className="btn btn-project"
             >
-                View Project
+              View Project
             </button>
           </div>
           <div className="col-md-6">
@@ -26,28 +26,26 @@ const JrDashboard = () => (
               type="button"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-project"
+              className="btn btn-disabled"
               disabled
             >
-                Source Private
+              Private
             </button>
           </div>
         </div>
       </div>
       <div className="col-md-6 project-description">
-        <h4>
-            The dashboard for students and teachers of JR Academy.
-        </h4>
+        <h4>The dashboard for students and teachers of JR Academy.</h4>
         <div className="project-info">
           <p>• Project Management: Jira, bitbucket</p>
           <p>
-              • Front-end development: CSS3, Less, HTML5, JavaScript ES6,
-              React.js, Redux, Redux-Saga, React hooks, React Router, Bootstrap,
-              Ant Design Pro, dva, Responsive design
+            • Front-end development: CSS3, Less, HTML5, JavaScript ES6,
+            React.js, Redux, Redux-Saga, React hooks, React Router, Bootstrap,
+            Ant Design Pro, dva, Responsive design
           </p>
           <p>
-              • Back-end development: Node.js, MongoDB, Mongoose, KeystoneJs,
-              RESTful API
+            • Back-end development: Node.js, MongoDB, Mongoose, KeystoneJs,
+            RESTful API
           </p>
         </div>
       </div>

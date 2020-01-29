@@ -1,122 +1,121 @@
 .home {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  &-content {
+    text-align: center;
+    padding-top: 20vh;
+    height: 100vh;
+    a {
+      color: $content;
+      font-size: 35px;
+      border-radius: 4px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 400;
+      position: relative;
+      display: inline-block;
+      font-family: fontawesome;
+      width: 40px;
+      height: 40px;
+      margin: 50px 25px 0 25px;
+      -o-transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      transition: all 0.5s;
+      -webkit-font-smoothing: antialiased;
+      @media only screen and (max-width: 480px) {
+        width: 30px;
+        height: 30px;
+        margin: 50px 10px 0 10px;
+        font-size: 25px;
+      }
+    }
+    a:hover {
+      color: $title;
+    }
+    //pop-up text
+    a span {
+      color: $title;
+      position: absolute;
+      font-family: sans-serif;
+      bottom: 0;
+      left: -25px;
+      right: -25px;
+      padding: 5px 5px;
+      z-index: -1;
+      font-weight: 500;
+      font-size: 20px;
+      border-radius: 4px;
+      background: #f0feffb4;
+      visibility: hidden;
+      opacity: 0;
+      -o-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      -moz-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    //pop-up text arrow
+    a span:before {
+      content: '';
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid #fff;
+      position: absolute;
+      bottom: -5px;
+      left: 40px;
+    }
+    //text pops up when icon is in hover state
+    a:hover span {
+      bottom: 50px;
+      visibility: visible;
+      opacity: 1;
+    }
+    a:nth-of-type(1)::before {
+      content: '\f0e1';
+    }
+    a:nth-of-type(2)::before {
+      content: '\f09b';
+    }
+    a:nth-of-type(3)::before {
+      content: '\f2bd';
+    }
+    a:nth-of-type(4)::before {
+      content: '\f0c6';
+    }
+  }
+  &-background {
+    height: 100vh;
+    background-color: white;
+    background: url('../../images/mountain.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
     width: 100%;
-    display: block;
-    box-sizing: border-box;
-    &-content {
-        text-align: center;
-        padding-top: 20vh;
-        height: 100vh;
-        a {
-            color: $content;
-            font-size: 35px;
-            border-radius: 4px;
-            text-align: center;
-            text-decoration: none;
-            font-weight: 900;
-            position: relative;
-            display: inline-block;
-            font-family: fontawesome;
-            width: 40px;
-            height: 40px;
-            margin: 50px 25px 0 25px;
-            -o-transition: all 0.5s;
-            -webkit-transition: all 0.5s;
-            -moz-transition: all 0.5s;
-            transition: all 0.5s;
-            -webkit-font-smoothing: antialiased;
-            @media only screen and (max-width: 480px) {
-                width: 30px;
-                height: 30px;
-                margin: 50px 10px 0 10px;
-                font-size: 25px;
-            }
-          }
-          a:hover {
-            color: $title;
-          }
-          //pop-up text
-          a span {
-            color: $title;
-            position: absolute;
-            font-family: sans-serif;
-            bottom: 0;
-            left: -25px;
-            right: -25px;
-            padding: 5px 5px;
-            z-index: -1;
-            font-weight: 500;
-            font-size: 20px;
-            border-radius: 4px;
-            background: #f0feffb4;
-            visibility: hidden;
-            opacity: 0;
-            -o-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-            -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-            -moz-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-            transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-          }
-          //pop-up text arrow
-          a span:before {
-            content: "";
-            width: 0;
-            height: 0;
-            border-left: 5px solid transparent;
-            border-right: 5px solid transparent;
-            border-top: 5px solid #fff;
-            position: absolute;
-            bottom: -5px;
-            left: 40px;
-          }
-          //text pops up when icon is in hover state
-          a:hover span {
-            bottom: 50px;
-            visibility: visible;
-            opacity: 1;
-          }
-          a:nth-of-type(1)::before {
-            content: "\f0e1";
-          }
-          a:nth-of-type(2)::before {
-            content: "\f09b";
-          }
-          a:nth-of-type(3)::before {
-            content: "\f2bd";
-          }
-          a:nth-of-type(4)::before {
-            content: "\f0c6";
-          }
+    z-index: -10;
+    opacity: 0.8;
+  }
+  &__intro {
+    font-size: 1.6rem;
+    font-family: Times New Roman;
+    color: $content;
+    margin-top: 20px;
+    @media only screen and (max-width: 576px) {
+      font-size: 0.8rem;
     }
-    &-background {
-        height: 100vh;
-        background-color: white;
-        background: url("../../images/mountain.jpg");
-        background-size: cover;
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin: 0;
-        width: 100%;
-        z-index: -10;
-        opacity: 0.8;
+  }
+  &__title {
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    color: $title;
+    font-weight: 400;
+    @media only screen and (max-width: 576px) {
+      font-size: 2.5rem;
     }
-    &__intro {
-        font-size: 1.6rem;
-        font-family: Times New Roman;
-        color: $content;
-        margin-top: 20px;
-        @media only screen and (max-width: 576px) {
-            font-size: 0.8rem;
-          }
-    }
-    &__title {
-        font-size: 4rem;
-        font-family: 'Times New Roman', Times, serif;
-        letter-spacing: 2px;
-        color: $title;
-        font-weight: 400;
-        @media only screen and (max-width: 576px) {
-            font-size: 2.5rem;
-          }
-    }
+  }
 }
-

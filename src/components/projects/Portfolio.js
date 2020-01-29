@@ -16,7 +16,7 @@ const Portfolio = () => (
               rel="noopener noreferrer"
               className="btn btn-project"
             >
-                View Project
+              View Project
             </button>
           </div>
           <div className="col-md-6">
@@ -27,19 +27,17 @@ const Portfolio = () => (
               rel="noopener noreferrer"
               className="btn btn-project"
             >
-                View Code
+              View Code
             </button>
           </div>
         </div>
       </div>
       <div className="col-md-6 project-description">
-        <h4>
-            My personal website.
-        </h4>
+        <h4>My personal website.</h4>
         <div className="project-info">
           <p>
-            • Used CSS3, Sass, HTML5, JavaScript, React.js,
-            Bootstrap, Responsive design for front-end development
+            • Used CSS3, Sass, HTML5, JavaScript, React.js, Bootstrap,
+            Responsive design for front-end development
           </p>
         </div>
       </div>
