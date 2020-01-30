@@ -18,7 +18,7 @@ body {
 
 .nav .navbar {
   width: 100vw;
-  font-weight: 600;
+  font-weight: 900;
   font-size: 1.3rem;
   background: black;
   margin: 0;
@@ -203,12 +203,15 @@ body {
   padding: 40px 30px 0 30px;
 }
 .projects .project h3 {
+  color: #2f3542;
   margin: 20px 0;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 700;
 }
 .projects .project h4 {
+  color: #2f3542;
   margin-bottom: 10px;
+  font-weight: 500;
 }
 .projects .project .project-description {
   color: #020202;
@@ -219,10 +222,12 @@ body {
   border-radius: 8px;
   border: 2px solid #718093;
   color: #718093;
+  transition: all 0.6s;
 }
 .projects .project .btn-project:hover {
   border: 2px solid #020202;
   color: #020202;
+  transform: scale(1.2);
 }
 .projects .project .btn-disabled {
   margin-top: 20px;
@@ -242,7 +247,6 @@ body {
 }
 
 .contact {
-  font-family: Titillium Web, sans-serif;
   font-weight: 600;
   margin-bottom: 50px;
   padding: 10px 20px;

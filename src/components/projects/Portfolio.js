@@ -9,15 +9,15 @@ const Portfolio = () => (
         <img src={portfolioImg} alt="portfolioImg" />
         <div className="row mt-2 mb-5 text-center">
           <div className="col-md-6">
-            <button
-              href="https://localhost:3000/"
+            <a
+              href="https://www.garyhtech.com"
               target="_blank"
-              type="button"
               rel="noopener noreferrer"
-              className="btn btn-project"
             >
-              View Project
-            </button>
+              <button type="button" className="btn btn-project">
+                View Project
+              </button>
+            </a>
           </div>
           <div className="col-md-6">
             <button
@@ -35,6 +35,10 @@ const Portfolio = () => (
       <div className="col-md-6 project-description">
         <h4>My personal website.</h4>
         <div className="project-info">
+          <p>
+            • A portfolio website that shares my contact details and several
+            current projects.
+          </p>
           <p>
             • Used CSS3, Sass, HTML5, JavaScript, React.js, Bootstrap,
             Responsive design for front-end development

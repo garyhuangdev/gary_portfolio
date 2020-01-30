@@ -5,12 +5,15 @@
     margin: 40px 0 100px 0;
     padding: 40px 30px 0 30px;
     h3 {
+      color: $title;
       margin: 20px 0;
       font-size: 25px;
-      font-weight: 500;
+      font-weight: 700;
     }
     h4 {
+      color: $title;
       margin-bottom: 10px;
+      font-weight: 500;
     }
     .project-description {
       color: $black;
@@ -21,9 +24,11 @@
       border-radius: 8px;
       border: 2px solid $btn-active;
       color: $btn-active;
+      transition: all 0.6s;
       &:hover {
         border: 2px solid $black;
         color: $black;
+        transform: scale(1.2);
       }
     }
     .btn-disabled {

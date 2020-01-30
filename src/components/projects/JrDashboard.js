@@ -10,26 +10,19 @@ const JrDashboard = () => (
         {/* Buttons */}
         <div className="row mt-2 mb-5 text-center">
           <div className="col-md-6">
-            <button
+            <a
               href="https://learn.jiangren.com.au/"
               target="_blank"
-              type="button"
               rel="noopener noreferrer"
-              className="btn btn-project"
             >
-              View Project
-            </button>
+              <button type="button" className="btn btn-project">
+                View Project
+              </button>
+            </a>
           </div>
           <div className="col-md-6">
-            <button
-              href=""
-              type="button"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-disabled"
-              disabled
-            >
-              Private
+            <button type="button" className="btn btn-disabled" disabled>
+              Source Private
             </button>
           </div>
         </div>
