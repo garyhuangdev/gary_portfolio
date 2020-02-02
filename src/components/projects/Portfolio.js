@@ -20,20 +20,20 @@ const Portfolio = () => (
             </a>
           </div>
           <div className="col-md-6">
-            <button
+            <a
               href="https://github.com/garyhuangdev/gary_portfolio"
               target="_blank"
-              type="button"
               rel="noopener noreferrer"
-              className="btn btn-project"
             >
-              View Code
-            </button>
+              <button type="button" className="btn btn-project">
+                View Code
+              </button>
+            </a>
           </div>
         </div>
       </div>
       <div className="col-md-6 project-description">
-        <h4>My personal website.</h4>
+        <h4>My portfolio website.</h4>
         <div className="project-info">
           <p>
             • A portfolio website that shares my contact details and several

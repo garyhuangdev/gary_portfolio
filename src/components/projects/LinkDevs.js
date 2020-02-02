@@ -10,7 +10,7 @@ const LinkDevs = () => (
         <div className="row mt-2 mb-5 text-center">
           <div className="col-md-6">
             <a
-              href="https://pacific-ridge-81844.herokuapp.com/"
+              href="http://linkdevs.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -20,15 +20,15 @@ const LinkDevs = () => (
             </a>
           </div>
           <div className="col-md-6">
-            <button
-              href="https://github.com/garyhuangdev/linkdevs"
+            <a
+              href="http://github.com/garyhuangdev/linkdevs"
               target="_blank"
-              type="button"
               rel="noopener noreferrer"
-              className="btn btn-project"
             >
-              View Code
-            </button>
+              <button type="button" className="btn btn-project">
+                View Code
+              </button>
+            </a>
           </div>
         </div>
       </div>

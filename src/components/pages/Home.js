@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../../resume/Gary Huang_Resume.pdf';
 
 const Home = () => (
   <section className="home">
@@ -7,7 +8,7 @@ const Home = () => (
       <p className="home__intro">Hi, nice to meet you, I am</p>
       <h1 className="home__title">Gary Huang</h1>
       <h3 className="home__intro">
-            Full-stack Developer | Front-end Developer
+        Full-stack Developer | Front-end Developer
       </h3>
       <div className="home__icon">
         <a
@@ -26,8 +27,7 @@ const Home = () => (
           {/* <i class="fab fa-github"></i> */}
           <span>Github</span>
         </a>
-        <a target="_blank" rel="noopener noreferrer" href="/">
-          {/* <i class="far fa-user-circle"></i> */}
+        <a href={resume} target="_blank" rel="noopener noreferrer">
           <span>Resume</span>
         </a>
         <a
@@ -35,7 +35,6 @@ const Home = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* <i class="fas fa-paperclip"></i> */}
           <span>Blog</span>
         </a>
       </div>
