@@ -1,9 +1,8 @@
 import React from 'react';
-import JrOfficial from '../projects/JrOfficial';
-import JrDashboard from '../projects/JrDashboard';
+import Official from '../projects/Official';
+import Dashboard from '../projects/Dashboard';
 import Portfolio from '../projects/Portfolio';
-import LinkDevs from '../projects/LinkDevs';
-import JrTalent from '../projects/JrTalent';
+import Talent from '../projects/Talent';
 
 const Projects = () => (
   <section className="projects">
@@ -11,15 +10,9 @@ const Projects = () => (
       <h2 className="text-center">Projects</h2>
       <div className="underline" />
     </div>
-    {/* Project JR Academy official site */}
-    <JrOfficial />
-    {/* Project JR Academy dashboard */}
-    <JrDashboard />
-    {/* Project JR Talent */}
-    <JrTalent />
-    {/* Project LinkDevs */}
-    <LinkDevs />
-    {/* Project Portfolio */}
+    <Official />
+    <Dashboard />
+    <Talent />
     <Portfolio />
   </section>
 );

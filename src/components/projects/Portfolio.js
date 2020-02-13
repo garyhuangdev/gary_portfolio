@@ -32,9 +32,9 @@ const Portfolio = () => (
           </div>
         </div>
       </div>
-      <div className="col-md-6 project-description">
+      <div className="col-md-6 project__description">
         <h4>My portfolio website.</h4>
-        <div className="project-info">
+        <div className="project__info">
           <p>
             • A portfolio website that shares my contact details and several
             current projects.

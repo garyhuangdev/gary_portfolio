@@ -3,8 +3,8 @@ import resume from '../../resume/Gary Huang_Full Stack Developer.pdf';
 
 const Home = () => (
   <section className="home">
-    <div className="home-background" />
-    <div className="home-content">
+    <div className="home__background" />
+    <div className="home__content">
       <p className="home__intro">Hi, nice to meet you, I am</p>
       <h1 className="home__title">Gary Huang</h1>
       <h3 className="home__intro">
@@ -16,7 +16,6 @@ const Home = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* <i class="fab fa-linkedin-in"></i> */}
           <span>Linkedin</span>
         </a>
         <a
@@ -24,7 +23,6 @@ const Home = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* <i class="fab fa-github"></i> */}
           <span>Github</span>
         </a>
         <a href={resume} target="_blank" rel="noopener noreferrer">

@@ -10,13 +10,13 @@ const Contact = () => (
       <div className="underline" />
     </div>
     <div className="row">
-      <div className="col-md-6 mx-auto contact-info">
+      <div className="col-md-6 mx-auto contact__info">
         <p>
           <img src={phoneImg} alt="phonePic" />
           <span>(61) 0411896882</span>
         </p>
       </div>
-      <div className="col-md-6 mx-auto contact-info">
+      <div className="col-md-6 mx-auto contact__info">
           <p>        
             <a
               href="mailto:garyhuang.dev@gmail.com"
@@ -28,7 +28,7 @@ const Contact = () => (
             </a>
           </p>
       </div>
-      <div className="col-md-6 mx-auto contact-info">
+      <div className="col-md-6 mx-auto contact__info">
         <p>
           <a
             href="https://www.linkedin.com/in/garyhuang-dev/"
@@ -40,7 +40,7 @@ const Contact = () => (
           </a>
         </p>
       </div>
-      <div className="col-md-6 mx-auto contact-info">
+      <div className="col-md-6 mx-auto contact__info">
         <p>
         </p>
       </div>

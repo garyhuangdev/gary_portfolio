@@ -8,7 +8,6 @@ const Skills = () => (
     </div>
     <div className="row">
       <div className="col-md-10 mx-auto">
-        {/* Tech Skills */}
         <h3>Tech Skills</h3>
         <p>
           • Front-End Development: React.js, Redux, Redux-Saga, CSS3, Sass,
@@ -17,18 +16,16 @@ const Skills = () => (
           design, Webpack
         </p>
         <p>
-          • Back-End Development: Node.js, ExpressJS, Mongoose, RESTful API,
-          KeystoneJS, PHP
+          • Back-End Development: Node.js, ExpressJS, RESTful API, PHP
         </p>
         <p>• Database design and management: MySQL, MongoDB, PostgreSQL</p>
         <p>
           • Coding Languages: CSS3, HTML5, JavaScript, Python, SQL, PHP
         </p>
-        <p>• Cloud: AWS S3, EC2, Heroku, MongoDB Atlas</p>
+        <p>• Cloud: Bitbucket, AWS S3, EC2, Heroku, MongoDB Atlas</p>
         <p>
           • Testing: Jest, Enzyme, Mocha
         </p>
-        {/* Teamwork Skills */}
         <h3>Teamwork Skills</h3>
         <p>• Tool: Git, AWS, NPM, Webpack, Bitbucket, JIRA, Postman, ESLint, Prettier, Autoprefixer</p>
         <p>• Methodology: BDD, TDD, CI/CD, Agile/Scrum</p>

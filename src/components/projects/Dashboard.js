@@ -1,13 +1,12 @@
 import React from 'react';
-import jrDashboardImg from '../../images/project-images/JrDashboard-home.png';
+import DashboardImg from '../../images/project-images/Dashboard-home.png';
 
-const JrDashboard = () => (
+const Dashboard = () => (
   <div className="project">
-    <h3>JR Academy Dashboard</h3>
+    <h3>Student Management System</h3>
     <div className="row">
       <div className="col-md-6">
-        <img src={jrDashboardImg} alt="jrDashboardImg" />
-        {/* Buttons */}
+        <img src={DashboardImg} alt="DashboardImg" />
         <div className="row mt-2 mb-5 text-center">
           <div className="col-md-6">
             <a
@@ -27,9 +26,9 @@ const JrDashboard = () => (
           </div>
         </div>
       </div>
-      <div className="col-md-6 project-description">
-        <h4>The dashboard for students and teachers of JR Academy.</h4>
-        <div className="project-info">
+      <div className="col-md-6 project__description">
+        <h4>Internal management system.</h4>
+        <div className="project__info">
           <p>• Project Management: Jira, bitbucket</p>
           <p>
             • Front-end development: CSS3, Less, HTML5, JavaScript ES6,
@@ -46,4 +45,4 @@ const JrDashboard = () => (
   </div>
 );
 
-export default JrDashboard;
+export default Dashboard;

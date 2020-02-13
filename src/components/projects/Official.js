@@ -1,13 +1,12 @@
 import React from 'react';
-import jrOfficialImg from '../../images/project-images/JrOfficial_home.png';
+import officialImg from '../../images/project-images/Official_home.png';
 
-const JrOfficial = () => (
+const Official = () => (
   <div className="project">
-    <h3>JR Academy Official</h3>
+    <h3>JR Academy</h3>
     <div className="row">
       <div className="col-md-6">
-        <img src={jrOfficialImg} alt="jrOfficialImg" />
-        {/* Buttons */}
+        <img src={officialImg} alt="officialImg" />
         <div className="row mt-2 mb-5 text-center">
           <div className="col-md-6">
             <a
@@ -27,17 +26,16 @@ const JrOfficial = () => (
           </div>
         </div>
       </div>
-      <div className="col-md-6 project-description">
-        <h4>The official website of JR Academy.</h4>
-        <div className="project-info">
+      <div className="col-md-6 project__description">
+        <h4>Official Website</h4>
+        <div className="project__info">
           <p>• Project Management: Jira, bitbucket</p>
           <p>
             • Front-end development: CSS3, Sass, Pug(Jade), JavaScript ES6,
             React.js, Redux, Bootstrap, jQuery, Responsive design
           </p>
           <p>
-            • Back-end development: Node.js, MongoDB, KeystoneJs, Mongoose,
-            RESTful API
+            • Back-end development: Node.js, MongoDB, RESTful API
           </p>
         </div>
       </div>
@@ -45,4 +43,4 @@ const JrOfficial = () => (
   </div>
 );
 
-export default JrOfficial;
+export default Official;
