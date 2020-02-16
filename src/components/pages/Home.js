@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../resume/Gary Huang_Full Stack Developer.pdf';
+import resume from '../../resume/Gary Huang_Full-stack-developer.pdf';
 
 const Home = () => (
   <section className="home">
