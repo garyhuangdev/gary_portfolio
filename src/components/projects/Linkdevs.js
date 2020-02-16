@@ -19,7 +19,8 @@ const Linkdevs = () => (
               </button>
             </a>
           </div>
-          <a
+          <div className="col-md-6">
+            <a
               href="https://github.com/garyhuangdev/linkdevs"
               target="_blank"
               rel="noopener noreferrer"
