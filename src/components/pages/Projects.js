@@ -1,8 +1,9 @@
 import React from 'react';
 import Official from '../projects/Official';
 import Dashboard from '../projects/Dashboard';
-import Portfolio from '../projects/Portfolio';
 import Talent from '../projects/Talent';
+import Linkdevs from '../projects/Linkdevs';
+import Portfolio from '../projects/Portfolio';
 
 const Projects = () => (
   <section className="projects">
@@ -13,6 +14,7 @@ const Projects = () => (
     <Official />
     <Dashboard />
     <Talent />
+    <Linkdevs />
     <Portfolio />
   </section>
 );
